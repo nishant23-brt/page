@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- This is how you link css -->
+    <link rel="stylesheet" href="NG.css">
+    <!-- This is how you link javascript -->
+    <script src="NG.JS"></script>
+    <style>
+
+        body{
+            padding: 2px 120px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .navbar{
+            
+            padding: 3px 3px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo a{
+            font-size: 33px;
+            font-weight: 600;
+            text-decoration:none;
+            color: black;
+        }
+        div.logo{
+            display:flex;
+        }
+        .logo img{
+            width: 30px;
+            padding:4px 2px ;
+            height: auto; 
+            max-width: 300px; 
+        }
+        .navbar li{
+
+            float:left ;
+            list-style-type: none;
+            padding:5px 10px;  
+        
+        }
+        .navbar li a{
+            padding:3px 3px ;
+            font-size: 20px;
+            font-weight: 1000;
+            text-decoration: none;
+            color: black;
+        }
+        .navbar div button  {
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            border-style: hidden;
+            background-image: linear-gradient(to right, rgb(255, 0, 149) , rgb(132, 0, 255));;
+            border-radius: 25px 0px 25px 25px ;
+           
+        }
+        button a{
+            font-weight: 600;
+            font-size: 20px;
+            padding: 15px;
+            text-decoration: none;
+            color: rgb(255, 251, 251);
+
+        }
+        .contents{
+            padding: 30px 0px;
+            display: flex;
+        }
+
+        .contents h1{
+            font-size: 60px;
+            
+        }
+        .contents button  {
+            padding: 5px 10px;
+            display: flex;
+            border-style: hidden;
+            background-image: linear-gradient(to right, rgb(255, 0, 149) , rgb(132, 0, 255));;
+            border-radius: 25px 0px 25px 25px ;  
+        }
+            
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+            <div class="logo">
+                <img src="logo.avif">
+                <a href="#">socially</a>
+            </div>
+            <ul>
+                <li><a href="#">Features</li>
+                <li><a href="#">How it works </a></li>
+                <li><a href="#">privacy</a></li>
+            </ul> 
+            <div class="xyz">
+                <li><a href="#">Sign in</a></li>
+                <button><a href="#">Download now</a></button>
+            </div>
+    </nav>
+    <nav class="contents"">
+        <div>
+            <h1>Make</h1>
+            <h1>New Friends</h1>
+            <div style="padding-bottom: 20px; font-size: 20px;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+             elit. Aspernatur voluptatibus laboriosam aut ad autem,
+              possimus eligendi dicta repellendus eos perferendis eum.
+               In tenetur cumque aliquid eaque accusamus error, ex 
+               voluptatem ad pariatur Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Impedit exercitationem, illum saepe placeat assumenda non aperiam sapiente tempore quia earum perspiciatis accusamus quibusdam, ipsa quisquam tempora maiores eaque quasi minus doloribus. Illo ullam culpa commodi ipsa aperiam? Cupiditate ab laboriosam praesentium quis debitis eius?
+            </div>
+            <span><button><a href="#">Join Now</a></button></span>
+            
+        </div> 
+        <div>
+            <img src="man.avif" >
+        </div>      
+    </nav>
+    
+</body>
+</html>
